@@ -1,0 +1,28 @@
+.link {
+  cursor: pointer;
+
+  &--primary {
+    color: $spanish-pink;
+
+    &:hover {
+      color: $eerie-black;
+    }
+
+    &:active {
+      color: $platinum;
+    }
+  }
+
+  &--secondary {
+    color: $raisin-black;
+  }
+
+  &--light {
+    color: $light-gray;
+  }
+
+  &--dark {
+    color: $eerie-black;
+  }
+}
+

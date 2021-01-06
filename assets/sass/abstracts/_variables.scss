@@ -1,0 +1,32 @@
+// colors
+$white: #fff;
+$platinum: #e6e7e7;
+$light-gray: #d1d1d1;
+$fuzzy-wuzzy: #e56353;
+$ruddy-pink: #d76c69;
+$spanish-pink: #ecbcba;
+$eerie-black: #121619;
+$raisin-black: #222323;
+$nickel: #6c6e70;
+
+// fonts
+$roboto: "Roboto", sans-serif;
+$playfair-display: "Playfair Display", sans-serif;
+$roboto-light: 300;
+$roboto-regular: 400;
+$playfair-display-regular: 400;
+$playfair-display-black-italic: 900;
+
+$primary-font: $roboto;
+$secondary-font: $playfair-display;
+$primary-font-regular: $roboto-regular;
+
+// font size
+$font-size-xx-large: 70px;
+$font-size-x-large: 30px;
+$font-size-large: 18px;
+$font-size-medium: 16px;
+$font-size-small: 12px;
+
+// laptop breakpoints
+//https://rimdev.io/making-media-query-mixins-with-sass/

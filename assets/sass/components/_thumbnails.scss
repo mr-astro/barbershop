@@ -1,0 +1,19 @@
+.thumbnail {
+  text-align: center;
+
+  &__image {
+    border-radius: 50%;
+    height: auto;
+    width: 120px;
+
+    @include laptop-view {
+      width: 150px;
+    }
+  }
+
+  @include laptop-view {
+    display: inline-table;
+    text-align: left;
+    vertical-align: middle;
+  }
+}
