@@ -102,7 +102,7 @@ table {
   color: #121619;
   display: block;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.25;
   margin-left: -1px;
@@ -111,7 +111,7 @@ table {
 }
 @media (min-width: 1200px) {
   .paginator__link {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 .paginator__link:hover {
@@ -142,9 +142,13 @@ table {
 
 .barra-menu {
   background-color: #121619;
+  font-family: "Roboto", sans-serif;
 }
 .barra-menu__imagen {
-  width: 100%;
+  width: 50%;
+}
+.barra-menu__link {
+  text-align: right;
 }
 
 .banner {
@@ -153,13 +157,12 @@ table {
   background-size: cover;
   color: #fff;
   display: table;
-  font-size: 18px;
-  padding: 30% 0;
+  padding: 25% 0;
 }
 .banner__title {
   text-align: center;
-  display: table;
   font-family: "Playfair Display", sans-serif;
+  font-size: 4.375rem;
   font-weight: 900;
   vertical-align: middle;
 }

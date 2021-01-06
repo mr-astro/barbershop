@@ -1,8 +1,13 @@
 //su csd que le aplican al index.html
 .barra-menu {
     background-color: $eerie-black;
+    font-family: $primary-font;
     &__imagen {
-        width: 100%;
+        width: 50%;
+    }
+
+    &__link {
+        text-align: right;
     }
 }
 
@@ -12,15 +17,15 @@
     background-size: cover;
     color: $white;
     display: table;
-    font-size: $font-size-large;
-    padding: 30% 0;
+    padding: 25% 0;
+
     
 
     &__title {
         text-align: center;
-        display: table;
         font-family: $secondary-font;
-        font-weight: $playfair-display-black-italic;
+        font-size: $font-size-xx-large;
+        font-weight: $secondary-font-bold;
         vertical-align: middle;
         
     }
