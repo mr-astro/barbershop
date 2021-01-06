@@ -1,1 +1,27 @@
-//su csd que le aploican al blog.html
+//su csd que le aplican al index.html
+.barra-menu {
+    background-color: $eerie-black;
+    &__imagen {
+        width: 100%;
+    }
+}
+
+.banner {
+    background-image: url('../img/post-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+    display: table;
+    font-size: $font-size-large;
+    padding: 30% 0;
+    
+
+    &__title {
+        text-align: center;
+        display: table;
+        font-family: $secondary-font;
+        font-weight: $playfair-display-black-italic;
+        vertical-align: middle;
+        
+    }
+}

@@ -1,19 +1,167 @@
-/* Error: Undefined mixin.
- *    ,
- * 39 | /     @include laptop-view {
- * 40 | |       font-size: $font-size-large;
- * 41 | \     }
- *    '
- *   components\_paginator.scss 39:5  @import
- *   main.scss 6:9                    root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 39 \2502  \250c      @include laptop-view {\a 40 \2502  \2502        font-size: $font-size-large;\a 41 \2502  \2514      }\a    \2575 \a   components\\_paginator.scss 39:5  @import\a   main.scss 6:9                    root stylesheet";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.link {
+  cursor: pointer;
+}
+.link--primary {
+  color: #ecbcba;
+}
+.link--primary:hover {
+  color: #121619;
+}
+.link--primary:active {
+  color: #e6e7e7;
+}
+.link--secondary {
+  color: #222323;
+}
+.link--light {
+  color: #d1d1d1;
+}
+.link--dark {
+  color: #121619;
+}
+
+.paginator {
+  border-radius: 0.25rem;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.paginator__item:first-child .paginator__link {
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+  margin-left: 0;
+}
+.paginator__item:last-child .paginator__link {
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+  margin-left: -1px;
+}
+.paginator__item.--active .paginator__link {
+  background-color: #222323;
+  border-color: #222323;
+  color: #fff;
+  z-index: 1;
+}
+.paginator__link {
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  color: #121619;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-left: -1px;
+  padding: 0.5rem 0.75rem;
+  position: relative;
+}
+@media (min-width: 1200px) {
+  .paginator__link {
+    font-size: 18px;
+  }
+}
+.paginator__link:hover {
+  color: #6c6e70;
+  text-decoration: none;
+}
+
+.thumbnail {
+  text-align: center;
+}
+.thumbnail__image {
+  border-radius: 50%;
+  height: auto;
+  width: 120px;
+}
+@media (min-width: 1200px) {
+  .thumbnail__image {
+    width: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .thumbnail {
+    display: inline-table;
+    text-align: left;
+    vertical-align: middle;
+  }
+}
+
+.barra-menu {
+  background-color: #121619;
+}
+.barra-menu__imagen {
+  width: 100%;
+}
+
+.banner {
+  background-image: url("../img/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: table;
+  font-size: 18px;
+  padding: 30% 0;
+}
+.banner__title {
+  text-align: center;
+  display: table;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 900;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=style.css.map */

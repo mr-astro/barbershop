@@ -1,3 +1,7 @@
 // @mixin desktop   y @mixin tablet  revisar en la web
 
 //https://css-tricks.com/approaches-media-queries-sass/
+
+@mixin laptop-view {
+    @media (min-width: 1200px) { @content; }
+  }

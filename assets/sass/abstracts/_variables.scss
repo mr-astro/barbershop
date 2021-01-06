@@ -19,7 +19,10 @@ $playfair-display-black-italic: 900;
 
 $primary-font: $roboto;
 $secondary-font: $playfair-display;
+$primary-font-light: $roboto-light;
 $primary-font-regular: $roboto-regular;
+$secondary-font-light: $playfair-display-regular;
+$secondary-font-bold: $playfair-display-black-italic;
 
 // font size
 $font-size-xx-large: 70px;
@@ -30,3 +33,6 @@ $font-size-small: 12px;
 
 // laptop breakpoints
 //https://rimdev.io/making-media-query-mixins-with-sass/
+
+
+
