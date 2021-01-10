@@ -1,7 +1,27 @@
-// @mixin desktop   y @mixin tablet  revisar en la web
+// consulta de adaptabilidad para celulares
+@mixin cellphone-view {
+    @media (max-width: #{$min-cellphone}) {
+        @content;
+    }
+}
 
-//https://css-tricks.com/approaches-media-queries-sass/
+// consulta de adaptabilidad para tablet
+@mixin tablet-view {
+    @media (max-width: #{$min-tablet}) {
+        @content;
+    }
+}
 
+// consulta de adaptabilidad para laptop
 @mixin laptop-view {
-    @media (min-width: 1200px) { @content; }
-  }
+    @media (max-width: #{$min-laptop}) {
+        @content;
+    }
+}
+
+// consulta de adaptabilidad para desktop
+@mixin desktop-view {
+    @media (max-width: #{$min-desktop}) {
+        @content;
+    }
+}

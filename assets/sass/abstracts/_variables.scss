@@ -10,8 +10,8 @@ $raisin-black: #222323;
 $nickel: #6c6e70;
 
 // fonts
-$roboto: "Roboto", sans-serif;
-$playfair-display: "Playfair Display", sans-serif;
+$roboto: 'Roboto', sans-serif;
+$playfair-display: 'Playfair Display', sans-serif;
 $roboto-light: 300;
 $roboto-regular: 400;
 $playfair-display-regular: 400;
@@ -32,7 +32,8 @@ $font-size-medium: 1rem;
 $font-size-small: 0.75rem;
 
 // laptop breakpoints
-//https://rimdev.io/making-media-query-mixins-with-sass/
 
-
-
+$min-cellphone: 576px;
+$min-tablet: 768px;
+$min-laptop: 992px;
+$min-desktop: 1200px;

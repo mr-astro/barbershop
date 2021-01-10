@@ -1,1 +1,28 @@
-//de la maqueta
+
+.button {
+    background-color: $nickel;
+    border-radius: 25px;
+    color: $white;
+
+    &--medium {
+        padding: 10px 15px; 
+    }
+
+    &--small {
+        padding: 8px 25px; 
+    }
+
+    &--small, &--medium {
+        font-size: $font-size-medium;
+        font-weight: $primary-font-light;
+
+        &:hover {
+            background-color: $platinum;
+        }
+
+        &:focus {
+            border: 2px $platinum solid;
+            
+        }
+    }
+}

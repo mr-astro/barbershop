@@ -1,19 +1,45 @@
 .thumbnail {
-  text-align: center;
+    padding: 6.25rem 0;
+  
+    &__info--img {
+        border-radius: 50%;
+        height: auto;
+        width:12.5rem;
+  
+        @include tablet-view {
+            width: 7.5rem;
+        }
+    }
 
-  &__image {
-    border-radius: 50%;
-    height: auto;
-    width: 120px;
+    &__info--nombre {
+        font-family: $secondary-font;
+        font-size: $font-size-x-large;
+        font-weight: $secondary-font-light;
+        font-style: italic;
+        text-align: center;
+    }
+    
+    &__info--text {
+        font-family: $primary-font;
+        font-weight: $primary-font-light;
+        font-size: $font-size-medium;
+        text-align: justify;
+        color: $nickel;
+        line-height:2rem;
+        
+        @include tablet-view {
+            display: none;
+        }
+    }
 
-    @include laptop-view {
-      width: 150px;
+    @include tablet-view {
+      display: inline-block;
+      text-align: left;
+      vertical-align: middle;
     }
   }
 
-  @include laptop-view {
-    display: inline-table;
-    text-align: left;
-    vertical-align: middle;
-  }
+.thumbnail row {
+    display: inline;
+    
 }

@@ -1,8 +1,23 @@
+
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
-@import 'base/reset';
+@import 'vendor/scss/bootstrap';
 @import 'components/buttons';
 @import 'components/links';
 @import 'components/paginator';
 @import 'components/thumbnails';
-@import 'pages/index'
+@import 'abstracts/variables';
+@import 'pages/blog';
+@import 'pages/contact';
+
+
+//orden de importacion
+
+//1-. abstracts
+//2-. vendor
+//3-. base
+//4-. layout
+//5-. components
+//6-. pages
+//7-. themes
+

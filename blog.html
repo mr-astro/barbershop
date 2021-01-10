@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <title>Barber Shop</title>
+    <!--Css referenciamos a nuestro style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-dark barra">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="barra--img" src="assets/images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" href="#">Trabajos</a>
+                    <a class="nav-link active" href="#">Blog <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Horas</a>
+                    <a class="nav-link" href="#">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Header-->
+    <header>
+        <div class="container-fluid banner">
+            <h1 class="banner--text">5 formas de cuidar tu corte de cabello</h1>
+        </div>
+    </header>
+
+    <!--post-->
+    <section class="container">
+        <div class="row">
+            <div class="col-sm post">
+                <p class="post__date">12 de abril 2018</p><br>
+                <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae incidunt eum id
+                    aliquid
+                    dolor odio fuga! Officiis, ipsum nisi placeat quidem sint, quia, aut et quibusdam impedit numquam
+                    doloremque molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ducimus quam
+                    dolorum
+                    odit ad sint corrupti eos sequi voluptate facilis, consequatur excepturi facere quae nam dignissimos
+                    laudantium explicabo natus ipsa.
+                </p><br>
+                <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officia optio
+                    debitis
+                    laboriosam voluptatem! Perferendis sapiente nesciunt sed laboriosam optio obcaecati neque doloribus
+                    sint
+                    error,
+                    deserunt perspiciatis temporibus. Impedit, adipisci.
+                </p><br>
+                <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eius ullam
+                    excepturi
+                    consectetur tempora illo exercitationem corrupti animi aspernatur velit impedit maxime, error aut
+                    placeat, qui nisi? Ad,
+                    iusto hic!
+                </p><br>
+                <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tempore, facere
+                    laudantium ut eum
+                    voluptatibus fugiat mollitia, voluptatum expedita, optio aspernatur consequatur! Accusamus pariatur,
+                    quas necessitatibus natus quidem culpa repellendus.
+                </p><br>
+                <p class="post__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate neque placeat
+                    distinctio dolore
+                    animi, culpa veniam itaque illum illo nostrum sint facere libero officia reprehenderit tenetur unde
+                    fugit quas possimus!
+                </p>
+
+                <div class="post__rsocial">
+                    <button class="button button--small">Compartir</button>
+                    <button class="button button--medium">Comentar en twitter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="text-center">
+        <div class="linea"></div>
+    </div>
+
+    <!--Biografia-->
+    <section class="container box">
+        <div class="box__foto"><img class="img-fluid thumbnail__info--img" src="assets/images/naomi-thai.png" alt=""></div>
+        <div class="box__contacto">
+            <span class="thumbnail__info--nombre">Naomi Thai</span><br>
+            <a href="#" class="thumbnail__info--redes">@Naothai</a><br>
+            <a href="#" class="thumbnail__info--redes">depelos.com</a>
+        </div>
+        <div class="box__texto">
+            <span class="thumbnail__info--text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Architecto
+                error qui atque incidunt, perferendis ea
+                deserunt dolore voluptatum similique eos eaque, veritatis autem quae? Impedit officia ad
+                aliquam
+                saepe
+                nesciunt!</span>
+        </div>
+    </section>
+
+    <!--paginador-->
+    <section class="paginador">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled paginator--item">
+                <a class="page-link paginator--link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+              </li>
+              <li class="page-item paginator--item"><a class="page-link paginator--link" href="#">1</a></li>
+              <li class="page-item active paginator--item"><a class="page-link paginator--link" href="#">2</a></li>
+              <li class="page-item paginator--item"><a class="page-link paginator--link" href="#">3</a></li>
+              <li class="page-item paginator--item">
+                <a class="page-link paginator--link" href="#">Siguiente</a>
+              </li>
+            </ul>
+          </nav>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <div class="footer">
+            <img class="footer--logo" src="assets/images/logo.png" alt="">
+
+        </div>
+    </footer>
+
+    <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>-->
+
+</body>
+
+</html>
