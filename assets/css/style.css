@@ -9934,6 +9934,20 @@ h3 {
   color: #6c6e70;
 }
 
+.barra--link {
+  text-decoration: none;
+  color: #fff;
+}
+.barra--link:hover {
+  color: #e6e7e7;
+}
+.barra--link:active {
+  color: #e56353;
+}
+.barra--link.active {
+  color: #e56353;
+}
+
 .paginator--item:first-child .paginator--link {
   border-top-left-radius: 1.25rem;
   border-bottom-left-radius: 1.25rem;
@@ -10028,12 +10042,16 @@ h3 {
   display: table;
   padding: 30% 0;
 }
-.banner--text {
+.banner--titulo {
   text-align: center;
   font-family: "Playfair Display", sans-serif;
   font-size: 4.375rem;
   font-weight: 900;
   font-style: italic;
+}
+.banner--icono {
+  text-align: center;
+  font-size: 1rem;
 }
 
 .footer {

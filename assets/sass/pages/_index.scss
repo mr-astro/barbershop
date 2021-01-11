@@ -15,22 +15,17 @@
     display: table;
     padding: 30% 0;
 
-    &--text {
+    &--titulo {
         text-align: center;
         font-family: $secondary-font;
         font-size: $font-size-xx-large;
         font-weight: $secondary-font-bold;
         font-style: italic;
     }
-}
 
-.footer {
-    background-color: $eerie-black;
-    text-align: center;
-    padding: 6.25rem 0;
-    
-    &--logo {
-        width: 7.813rem;
+    &--icono {
+        text-align: center;
+        font-size: $font-size-medium;
     }
 }
 
