@@ -10026,6 +10026,15 @@ h3 {
   display: inline;
 }
 
+.footer {
+  background-color: #121619;
+  text-align: center;
+  padding: 6.25rem 0;
+}
+.footer--logo {
+  width: 7.813rem;
+}
+
 .barra {
   background-color: #121619;
   font-family: "Roboto", sans-serif;
