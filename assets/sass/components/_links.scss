@@ -17,23 +17,3 @@
         }
     }   
 }
-
-.barra {
-
-    &--link {
-        text-decoration: none;
-        color: $white;
-
-        &:hover {
-            color: $platinum;
-        }
-
-        &:active {
-            color: $fuzzy-wuzzy;
-        }
-    }
-
-    &--link.active {
-        color: $fuzzy-wuzzy;
-    }
-}
